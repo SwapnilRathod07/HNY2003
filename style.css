@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+body {
+  background-color: black;
+  color: white;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Poppins"sans-serif;
+  margin: 0;
+  
+
+  width:100%;
+  height:100%;
+  color:black;
+  font-weight:bold;
+  animation: myanimation 10s infinite;
+}
+
+@keyframes myanimation {
+  0% {background-color: red;}
+  25%{background-color:yellow;}
+  50%{background-color:green;}
+  75%{background-color:brown;}
+  100% {background-color: red;}
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 4rem;
+  margin-top: 5rem;
+}
+
+.countdown-container {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.big-text {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1;
+  margin: 0.25rem 1rem;
+}
+
+.countdown-el {
+  text-align: center;
+}
+
+.countdown-el span {
+  font-size: 1.1rem;
+}
+.b{
+
+  width:100%;
+  height:100%;
+  color:black;
+  font-weight:bold;
+  animation: myanimation 10s infinite;
+}
+
+@keyframes myanimation {
+ 10% {background-color:#e52165;}
+20%{background-color: #0d1137;}
+  30%{background-color: #f3ca20;}
+  40%{background-color: #d9138a;}
+  50% {background-color: #12a4d9 ;}
+60%{background-color: #5c3c92;}
+  70% {background-color: #d902ee;}
+80% {background-color: #a8c66c;}
+90%{background-color: #d71b3b;}
+  100% {background-color: #4203c9;}
+
+}
+.italic {
+  font-style: italic;
+  text-align: center;
+  }
+  
+  .p{
+    align-items:center;
+    text-align: center;
+    font-size:25px;}
+
+
+.wh {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wh{
+  width:200px;
+  height: 55px;
+  font-family: 'Roboto', sans-serif;
+  font-size:20px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color:#2EE59D;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  }
+
+.wh:hover {
+  background-color: #2EE59D;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
